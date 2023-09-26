@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DATA DIRI</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous"
+        />
+        <link
+          rel="stylesheet"
+          href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+          crossorigin="anonymous"
+          />
+          <link rel="stylesheet" type="text/css" href="style1.css">
+        </head>
+    </style>
+    <body style="background-color: rgb(187, 170, 163);">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-secondary shadow-lg fixed-top">
+              <div class="container">
+                <a class="navbar-brand" href="index.html">BACK</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+              </div>
+            </nav>
+        </style>
+        <link rel="stylesheet" href="style1.css">
+        <div class="container-fluid pt-5 pb-5 bg-light">
+            <div class="container text-center">
+              <div style="background-color: rgb(238, 205, 174);">
+              <h2 class="display-3" id="VIDEO DOKUMENTASI">VIDEO DOKUMENTASI</h2>
+                <P>Saya berasal dari Bulukumba,
+                    maka dari itu saya akan menunjukan pesona dari Kabupaten Bulukumba itu sendiri.</P>
+                 <video controls>
+                  <link rel="java" href="index.js">
+                  <source src="video bulukuma.mp4" type="video/mp4">
+                 </video> 
+                 </div>
+                 </div>
+                 </div>
+                 <div>
+                  <canvas id="myChart"></canvas>>
+                </div>
+                
+                <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                <div style="width: auto;">
+                <div class="container text-center">
+                
+                <script>
+                  
+                  const ctx = document.getElementById('myChart');
+                
+                  new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                      labels: ['2018', '2019', '2020', '2021', '2022', '2023'],
+                      datasets: [{
+                        label: '# of Data Siswa',
+                        data: [12, 19, 3, 5, 2, 3],
+                        backgroundcolor: [
+                          'rgba(255, 99, 132, 0.2)',
+                          'rgba(255, 159, 64, 0.2)',
+                          'rgba(255, 205, 86, 0.2)',
+                          'rgba(75, 192, 192, 0.2)',
+                          'rgba(54, 162, 235, 0.2)',
+                          'rgba(153, 102, 255, 0.2)',
+                          'rgba(201, 203, 207, 0.2)'
+                            ],
+                            borderColor: [
+                          'rgb(255, 99, 132)',
+                          'rgb(255, 159, 64)',
+                          'rgb(255, 205, 86)',
+                          'rgb(75, 192, 192)',
+                          'rgb(54, 162, 235)',
+                          'rgb(153, 102, 255)',
+                          'rgb(201, 203, 207)'
+                          ],
+                          borderWidth: 1
+                      }]
+                    },
+                    options: {
+                      scales: {
+                        y: {
+                          beginAtZero: true
+                        }
+                      }
+                    }
+                  });
+                </script>
+                </div>
+                </div>
+                </div>
+                
+    </body>
+    
+    </html>
